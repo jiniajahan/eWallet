@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorLightBlack">#808080</color>
+    <color name="colorLighterBlack">#473d3d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrange">#ff8000</color>
+    <color name="colorAsh">#78909c</color>
+    <color name="colorLightSky">#5f41f4</color>
+    <color name="colorButton">#fff</color>
+    <color name="colorBackground">#31b0d5</color>
+    <color name="gradient">#28c2ed</color>
+    <color name="black">#0f0f0f</color>
+    <color name="LighterWhite">#d6cbcb</color>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.mywallet.AddingNewElementActivity"
+    tools:showIn="@layout/activity_adding_new_element"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+    <include
+        layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar"
+        />
+
+    <EditText
+        android:id="@+id/userInputId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="45dp"
+        android:focusableInTouchMode="true"
+        android:background="#fff"
+        android:textColor="#847A77"
+        android:layout_marginTop="5dp"
+        android:paddingTop="12dp"
+        android:textSize="16dp"
+        android:text="ID"
+        android:paddingLeft="20dp"
+        android:hint="ID" />
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="45dp"
+        android:background="#fff"
+        android:textColor="#847A77"
+        android:layout_marginTop="5dp"
+        android:paddingTop="12dp"
+        android:focusableInTouchMode="true"
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:hint="Amount" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="45dp"
+        android:background="#fff"
+        android:textColor="#847A77"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="12dp"
+        android:textSize="16dp"
+        android:hint="Description" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/incomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:height="40dp"
+            android:background="@color/colorLightBlack"
+            android:text="Income"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <RadioButton
+            android:id="@+id/expenseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:height="40dp"
+            android:background="@color/colorLightBlack"
+            android:text="Expense"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonDateDialog"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorLightBlack"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textSize="16dp"
+        android:text="Select Date"/>
+
+    <EditText
+        android:id="@+id/showDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="45dp"
+        android:background="#fff"
+        android:textColor="#847A77"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/saveItemData"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@color/gradient"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/updateDataId"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="@color/gradient"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Update"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/deleteDataId"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="@color/gradient"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/showlastDataId"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="@color/gradient"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:text="Last data" />
+
+
+</LinearLayout>

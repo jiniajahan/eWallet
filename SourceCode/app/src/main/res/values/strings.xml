@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myWallet</string>
+    <string name="title_activity_adding_new_element">AddingNewElementActivity</string>
+    <string name="title_activity_view_all">ViewAllActivity</string>
+    <string name="title_activity_show_all_data">ShowAllDataActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

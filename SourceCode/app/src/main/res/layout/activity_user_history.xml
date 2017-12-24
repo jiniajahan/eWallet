@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@color/LighterWhite"
+tools:context="com.example.asus.mywallet.User_history_Activity">
+    <include
+        layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar"
+        />
+<SearchView
+    android:id="@+id/searchViewId"
+    android:background="@color/LighterWhite"
+    android:queryHint="Your Query Pls.."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</SearchView>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/historyTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monthly Performance"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="40dp"
+                android:text="Total Income"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="40dp"
+                android:text="Month"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="40dp"
+                android:gravity="right"
+                android:text="Total Expense"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+<ListView
+    android:id="@+id/listViewId"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:divider="@color/colorBackground"
+    android:dividerHeight="0.3dp">
+</ListView>
+</LinearLayout>
